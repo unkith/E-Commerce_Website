@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/f702d971ea.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+
+    <title>About</title>
+
+    <style>
+        .popup {
+            display: none;
+            position: absolute;
+            background-color: black;
+            border-radius: 5px;
+            width: 300px;
+            top: calc(100% + 10px);
+            left: 50%;
+            transform: translateX(-50%);
+            opacity: 80%;
+            z-index: 1;
+        }
+
+        .close-popup {
+            position: absolute;
+            top: 5px;
+            right: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header style="border-bottom: 1px solid black; background-color: black; ">
+        <nav class="navbar navbar-expand-md">
+            <div class="container">
+                <!-- Logo -->
+                <a class="navbar-brand" href="ECommerce.html">
+                    <h3 class="mx-3" style="font-weight: bold; color: #00ABE4;">Shopping.com</h3>
+                </a>
+                <!-- Sidebar -->
+                <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse align-items-center" style="justify-content: center;" id="navbarCollapse">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="ECommerce.html" >Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" style="color: #00ABE4;">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="shop.html">Shop</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Cart -->
+                <button class="btn btn-primary" id="cart" style="background-color: #00ABE4;">
+                    <i class="fa-solid fa-cart-shopping fa-2xl"></i>
+                </button>
+
+                <!-- Pop up -->
+                <div id="popup" class="popup">
+                    <div class="popup-content text-white p-2">
+                        <span class="close-popup" id="closePopup" style="color: #00ABE4;">&times;</span>
+                        <p style="color: #00ABE4;">Check the cart in the shop menu</p>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container my-5">
+        <div class="row">
+            <!-- Information -->
+            <div class="col-md-6 px-3">
+                
+                <h1 style="color: #00ABE4;">About Us</h1>
+                <p>
+                    At Shopping.com, we're more than just an online store – we're your shopping destination for quality products and unbeatable deals. Our journey started with a vision to provide a seamless and enjoyable shopping experience for everyone.
+                </p>
+                <p>
+                    What makes us stand out is our commitment to offering a diverse range of products that cater to your needs, whether you're searching for the latest fashion trends, cutting-edge electronics, or essentials for your home. We take pride in curating a collection that meets the highest standards of quality and affordability.
+                </p>
+                <p>
+                    Thank you for choosing Shopping.com as your go-to destination for online shopping. We're excited to continue serving you and providing a remarkable shopping journey that goes beyond the ordinary.
+                </p>
+            </div>
+            <!-- Picture -->
+            <div class="col-md-6">
+                <img src="https://i.pinimg.com/736x/de/58/81/de58812ffb96c8b1ecf40948279e41d0.jpg" alt="About Us" class="img-fluid text-center justify-content-center">
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row text-center">
+                <h3 style="color: #00ABE4;">Shopping.com</h3>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-md-6 text-center">
+                    <h5>Contact Us</h5>
+                    <address>
+                        123, Road, City <br>
+                        State, Country<br>
+                        Phone: +12 34567890<br>
+                        Email: shopping@gmail.com
+                    </address>
+                </div>
+                <div class="col-md-6 text-center">
+                    <h5>Hours of Operation</h5>
+                    <p>Monday - Friday: 9:00 AM - 6:00 PM<br>
+                       Saturday: 10:00 AM - 4:00 PM<br>
+                       Sunday: Closed
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Script -->
+    <script>
+        const openButton = document.getElementById('cart');
+        const closeButton = document.getElementById('closePopup');
+        const popup = document.getElementById('popup');
+
+        openButton.addEventListener('click', () => {
+            popup.style.display = 'block';
+        });
+
+        closeButton.addEventListener('click', () => {
+            popup.style.display = 'none';
+        });
+
+    </script>
+</body>
+</html>
