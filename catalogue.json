@@ -1,0 +1,402 @@
+[
+    {
+        "id": 1,
+        "name": "Wireless Bluetooth Headphones",
+        "category": "Electronics",
+        "quantity": 1,
+        "price": 49.99,
+        "description": "High-quality wireless headphones with Bluetooth connectivity."
+    },
+    {
+        "id": 2,
+        "name": "Cotton Crewneck T-Shirt",
+        "category": "Clothing",
+        "quantity": 1,
+        "price": 14.99,
+        "description": "Comfortable cotton crewneck t-shirt for everyday wear."
+    },
+    {
+        "id": 3,
+        "name": "Smartphone Stand and Charger",
+        "category": "Accessories",
+        "quantity": 1,
+        "price": 19.99,
+        "description": "Convenient smartphone stand with built-in charging capabilities."
+    },
+    {
+        "id": 4,
+        "name": "Stainless Steel Water Bottle",
+        "category": "Home & Kitchen",
+        "quantity": 1,
+        "price": 12.49,
+        "description": "Durable stainless steel water bottle for staying hydrated on the go."
+    },
+    {
+        "id": 5,
+        "name": "Running Shoes",
+        "category": "Sports & Outdoors",
+        "quantity": 1,
+        "price": 79.99,
+        "description": "High-performance running shoes designed for comfort and support."
+    },
+    {
+        "id": 6,
+        "name": "Bluetooth Wireless Earbuds",
+        "category": "Electronics",
+        "quantity": 1,
+        "price": 39.99,
+        "description": "Wireless earbuds with Bluetooth technology for immersive audio experience."
+    },
+    {
+        "id": 7,
+        "name": "Denim Jacket",
+        "category": "Clothing",
+        "quantity": 1,
+        "price": 59.99,
+        "description": "Classic denim jacket for a stylish and versatile look."
+    },
+    {
+        "id": 8,
+        "name": "Phone Wallet Case",
+        "category": "Accessories",
+        "quantity": 1,
+        "price": 24.99,
+        "description": "Protective wallet case for your phone with card slots and RFID blocking."
+    },
+    {
+        "id": 9,
+        "name": "Coffee Mug Set",
+        "category": "Home & Kitchen",
+        "quantity": 1,
+        "price": 16.99,
+        "description": "Set of coffee mugs perfect for enjoying your favorite beverages."
+    },
+    {
+        "id": 10,
+        "name": "Yoga Mat",
+        "category": "Sports & Outdoors",
+        "quantity": 1,
+        "price": 29.99,
+        "description": "High-quality yoga mat for comfortable and effective yoga practice."
+    },
+    {
+        "id": 11,
+        "name": "Gaming Mouse",
+        "category": "Electronics",
+        "quantity": 1,
+        "price": 34.99,
+        "description": "Precision gaming mouse with customizable features for enhanced gaming performance."
+    },
+    {
+        "id": 12,
+        "name": "Graphic Print T-Shirt",
+        "category": "Clothing",
+        "quantity": 1,
+        "price": 17.99,
+        "description": "Stylish graphic print t-shirt to showcase your unique personality."
+    },
+    {
+        "id": 13,
+        "name": "Wireless Charging Pad",
+        "category": "Accessories",
+        "quantity": 1,
+        "price": 29.99,
+        "description": "Convenient wireless charging pad compatible with various devices."
+    },
+    {
+        "id": 14,
+        "name": "Non-Stick Cookware Set",
+        "category": "Home & Kitchen",
+        "quantity": 1,
+        "price": 49.99,
+        "description": "Complete non-stick cookware set for versatile cooking options."
+    },
+    {
+        "id": 15,
+        "name": "Hiking Backpack",
+        "category": "Sports & Outdoors",
+        "quantity": 1,
+        "price": 69.99,
+        "description": "Spacious hiking backpack with ergonomic design for outdoor adventures."
+    },
+    {
+        "id": 16,
+        "name": "External Hard Drive",
+        "category": "Electronics",
+        "quantity": 1,
+        "price": 79.99,
+        "description": "Portable external hard drive for secure storage and data transfer."
+    },
+    {
+        "id": 17,
+        "name": "Fleece Sweater",
+        "category": "Clothing",
+        "quantity": 1,
+        "price": 23.99,
+        "description": "Warm and cozy fleece sweater for colder weather."
+    },
+    {
+        "id": 18,
+        "name": "Wireless Earbud Case",
+        "category": "Accessories",
+        "quantity": 1,
+        "price": 9.99,
+        "description": "Compact case to protect and carry your wireless earbuds."
+    },
+    {
+        "id": 19,
+        "name": "Food Processor",
+        "category": "Home & Kitchen",
+        "quantity": 1,
+        "price": 59.99,
+        "description": "Versatile food processor for chopping, slicing, and more."
+    },
+    {
+        "id": 20,
+        "name": "Camping Tent",
+        "category": "Sports & Outdoors",
+        "quantity": 1,
+        "price": 89.99,
+        "description": "Spacious camping tent for outdoor enthusiasts and adventurers."
+    },
+    {
+        "id": 21,
+        "name": "Smartwatch",
+        "category": "Electronics",
+        "quantity": 1,
+        "price": 129.99,
+        "description": "Advanced smartwatch with fitness tracking and notification features."
+    },
+    {
+        "id": 22,
+        "name": "Jeans",
+        "category": "Clothing",
+        "quantity": 1,
+        "price": 39.99,
+        "description": "Classic denim jeans for a timeless and versatile look."
+    },
+    {
+        "id": 23,
+        "name": "Phone Camera Lens Kit",
+        "category": "Accessories",
+        "quantity": 1,
+        "price": 22.99,
+        "description": "Camera lens kit to enhance your smartphone photography."
+    },
+    {
+        "id": 24,
+        "name": "Blender",
+        "category": "Home & Kitchen",
+        "quantity": 1,
+        "price": 34.99,
+        "description": "Powerful blender for creating smoothies, shakes, and more."
+    },
+    {
+        "id": 25,
+        "name": "Basketball",
+        "category": "Sports & Outdoors",
+        "quantity": 1,
+        "price": 19.99,
+        "description": "Durable basketball for indoor and outdoor games."
+    },
+    {
+        "id": 26,
+        "name": "Laptop Sleeve",
+        "category": "Electronics",
+        "quantity": 1,
+        "price": 19.99,
+        "description": "Protective laptop sleeve to safeguard your device while on the move."
+    },
+    {
+        "id": 27,
+        "name": "Summer Dress",
+        "category": "Clothing",
+        "quantity": 1,
+        "price": 29.99,
+        "description": "Light and breezy summer dress for casual outings."
+    },
+    {
+        "id": 28,
+        "name": "Wireless Mouse",
+        "category": "Accessories",
+        "quantity": 1,
+        "price": 17.99,
+        "description": "Ergonomic wireless mouse for comfortable computing."
+    },
+    {
+        "id": 29,
+        "name": "Knife Set",
+        "category": "Home & Kitchen",
+        "quantity": 1,
+        "price": 39.99,
+        "description": "Complete knife set for various culinary tasks in the kitchen."
+    },
+    {
+        "id": 30,
+        "name": "Yoga Mat",
+        "category": "Sports & Outdoors",
+        "quantity": 1,
+        "price": 24.99,
+        "description": "Eco-friendly yoga mat with textured surface for improved grip."
+    },
+    {
+        "id": 31,
+        "name": "Wireless Gaming Headset",
+        "category": "Electronics",
+        "quantity": 1,
+        "price": 69.99,
+        "description": "Immersive wireless gaming headset with clear audio and comfortable design."
+    },
+    {
+        "id": 32,
+        "name": "Polo Shirt",
+        "category": "Clothing",
+        "quantity": 1,
+        "price": 21.99,
+        "description": "Classic polo shirt for a polished and sporty look."
+    },
+    {
+        "id": 33,
+        "name": "Phone Popsocket",
+        "category": "Accessories",
+        "quantity": 1,
+        "price": 6.99,
+        "description": "Popsocket for your phone for improved grip and handling."
+    },
+    {
+        "id": 34,
+        "name": "Slow Cooker",
+        "category": "Home & Kitchen",
+        "quantity": 1,
+        "price": 29.99,
+        "description": "Efficient slow cooker for preparing flavorful meals with ease."
+    },
+    {
+        "id": 35,
+        "name": "Soccer Ball",
+        "category": "Sports & Outdoors",
+        "quantity": 1,
+        "price": 15.99,
+        "description": "Durable soccer ball for practice and recreational play."
+    },
+    {
+        "id": 36,
+        "name": "Bluetooth Speaker",
+        "category": "Electronics",
+        "quantity": 1,
+        "price": 32.99,
+        "description": "Portable Bluetooth speaker for enjoying music on the go."
+    },
+    {
+        "id": 37,
+        "name": "Hooded Sweatshirt",
+        "category": "Clothing",
+        "quantity": 1,
+        "price": 27.99,
+        "description": "Cozy hooded sweatshirt for warmth and casual style."
+    },
+    {
+        "id": 38,
+        "name": "Phone Screen Protector",
+        "category": "Accessories",
+        "quantity": 1,
+        "price": 9.99,
+        "description": "Protective screen protector for your phone to prevent scratches and damage."
+    },
+    {
+        "id": 39,
+        "name": "Crockpot",
+        "category": "Home & Kitchen",
+        "quantity": 1,
+        "price": 42.99,
+        "description": "Versatile crockpot for easy and delicious slow-cooked meals."
+    },
+    {
+        "id": 40,
+        "name": "Tennis Racket",
+        "category": "Sports & Outdoors",
+        "quantity": 1,
+        "price": 59.99,
+        "description": "High-quality tennis racket for players of all skill levels."
+    },
+    {
+        "id": 41,
+        "name": "Laptop Backpack",
+        "category": "Electronics",
+        "quantity": 1,
+        "price": 49.99,
+        "description": "Spacious laptop backpack with compartments for your electronic devices."
+    },
+    {
+        "id": 42,
+        "name": "Summer Hat",
+        "category": "Clothing",
+        "quantity": 1,
+        "price": 14.99,
+        "description": "Stylish summer hat for sun protection and a fashionable look."
+    },
+    {
+        "id": 43,
+        "name": "Phone Stand",
+        "category": "Accessories",
+        "quantity": 1,
+        "price": 8.99,
+        "description": "Adjustable phone stand for hands-free use and convenient viewing."
+    },
+    {
+        "id": 44,
+        "name": "Mixing Bowl Set",
+        "category": "Home & Kitchen",
+        "quantity": 1,
+        "price": 18.99,
+        "description": "Set of mixing bowls for preparing and serving a variety of dishes."
+    },
+    {
+        "id": 45,
+        "name": "Jump Rope",
+        "category": "Sports & Outdoors",
+        "quantity": 1,
+        "price": 9.99,
+        "description": "Durable jump rope for cardiovascular exercise and fitness training."
+    },
+    {
+        "id": 46,
+        "name": "Bluetooth Earphones",
+        "category": "Electronics",
+        "quantity": 1,
+        "price": 29.99,
+        "description": "Bluetooth earphones for wire-free listening and hands-free calls."
+    },
+    {
+        "id": 47,
+        "name": "Chino Pants",
+        "category": "Clothing",
+        "quantity": 1,
+        "price": 34.99,
+        "description": "Classic chino pants for a polished and versatile look."
+    },
+    {
+        "id": 48,
+        "name": "Phone Car Mount",
+        "category": "Accessories",
+        "quantity": 1,
+        "price": 12.99,
+        "description": "Car mount for your phone for easy navigation and hands-free use while driving."
+    },
+    {
+        "id": 49,
+        "name": "Cooking Utensil Set",
+        "category": "Home & Kitchen",
+        "quantity": 1,
+        "price": 14.99,
+        "description": "Set of cooking utensils for various culinary tasks and meal preparation."
+    },
+    {
+        "id": 50,
+        "name": "Football",
+        "category": "Sports & Outdoors",
+        "quantity": 1,
+        "price": 19.99,
+        "description": "Durable football for outdoor sports and recreational activities."
+    }
+]
